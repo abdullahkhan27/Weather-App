@@ -1,0 +1,135 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(41, 41, 41);
+  font-family: 'Jost', sans-serif;
+ 
+}
+
+.container{
+  max-width: 450px;
+  width: 100%;
+  background: linear-gradient(135deg, #00feba , #5b548a);
+  /* background-size: 100% 200%;
+  transition: 1s; */
+  /* background: linear-gradient( 130deg, rgb(43, 99,218) , rgb(22, 22, 220)); */
+  color: white;
+  padding: 20px;
+  margin: 50px auto 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.search input{
+  border: transparent;
+  padding: 10px 22px;
+  flex: 1;
+  margin-right: 20px;
+  border-radius: 30px;
+  font-size:18px ;
+  background-color: rgb(233,240,240);
+  color: black;
+  }
+
+  .search button{
+    border: transparent;
+    background-color: rgb(233,240,240);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+
+  }
+
+  .search button i{
+    width: 17px ;
+  }
+  .weather .icon{
+    margin-top: 20px;
+    width: 160px;
+  
+
+  }
+
+  /* .weather h1{
+    font-size: 70px;
+    font-weight: 500;
+  } */
+
+
+  /* .weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+  } */
+
+.col img{
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+
+}
+
+.detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+  
+}
+
+
+.col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col img{
+  width: 160px;
+  height: 160px;
+
+}
+.celcius{
+  font-size: 70px;
+  font-weight: 500;
+}
+.city{
+  font-size: 40px;
+  font-weight: 400px;
+  margin-top: 10px;
+}
+
+.humidity, .wind{
+  font-size: 20px;
+
+}
+
+.error{
+  text-align: center;
+  color: red;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: none;
+}
+
+.win-speedd{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 100;
+}
